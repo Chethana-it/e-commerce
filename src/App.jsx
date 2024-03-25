@@ -4,7 +4,7 @@ import Footer from "./components/Footer/Footer.jsx"
 
 function App() {
   return (
-    <div className="w-full">
+    <div className="w-full h-screen">
       <Header />
       <Body />
       <Footer/>
@@ -13,3 +13,4 @@ function App() {
 }
 
 export default App;
+ 
