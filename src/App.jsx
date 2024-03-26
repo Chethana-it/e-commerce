@@ -1,13 +1,9 @@
-import Header from "./components/Header/Header.jsx";
-import Body from "./components/Body/Body.jsx"
-import Footer from "./components/Footer/Footer.jsx"
+import AppRouter from "./Routers/AppRouter.jsx";
 
 function App() {
   return (
     <div className="w-full h-screen">
-      <Header />
-      <Body />
-      <Footer/>
+      <AppRouter/>
     </div>
   );
 }
