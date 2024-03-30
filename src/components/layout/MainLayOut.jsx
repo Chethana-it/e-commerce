@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom'
 
 const MainLayOut = () => {
   return (
-    <div>
+    <div className='w-screen h-screen'>
       <Header />
       <Outlet/>
       <Footer/>
