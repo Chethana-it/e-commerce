@@ -9,7 +9,8 @@ module.exports = {
         'my-background':'#243c4b'
       },
       dropShadow: {
-        "header-shadow":"rgba(0, 0, 0, 0.35) 0px 5px 15px"
+        "header-shadow": "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+        "product-shadow": "rgba(0, 0, 0, 0.24) 0px 3px 8px"
       }
     },
   },

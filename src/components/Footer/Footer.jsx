@@ -1,9 +1,8 @@
 import { IconButton } from '@mui/material'
-import React from 'react'
+import React, { useState } from 'react'
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined'
 import AppsOutlinedIcon from '@mui/icons-material/AppsOutlined';
 import  AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
-
 
 function Footer() {
   return (
@@ -18,6 +17,12 @@ function Footer() {
 export default Footer
 
 const FooterIcon = ({ Icon, Name }) => {
+  const [whoisClick, setwhoisClick] = useState({
+    home: true,
+    category: false,
+    profile:false
+  })
+
   return (
     <IconButton
     sx={{
